@@ -1,0 +1,174 @@
+a {
+    text-decoration: none;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+    color: #4B4B4B;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
+
+.products__inner {
+    max-width: 100%;
+    height: 1000px;
+    background-color: #F8F8F8;
+    padding: 70px 40px;
+}
+
+.products__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.products__title--text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.products-create__button {
+    width: auto;
+
+}
+
+.products-create__button-submit {
+    background: #FFA929;
+    width: 100%;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4b4b4b;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    text-decoration: none;
+}
+
+
+
+.products__content {
+    width: auto;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 20px;
+}
+
+.products__search {
+    width: auto;
+    height: auto;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom-width: 1px;
+}
+
+.products__search--input {
+    width: 240px;
+    height: auto;
+    gap: 10px;
+    padding-top: 14.5px;
+    padding-right: 10px;
+    padding-bottom: 14.5px;
+    padding-left: 10px;
+    border-radius: 25px;
+    border-width: 1px;
+    border: 1px solid #E0DFDE;
+}
+
+.products__search--button {
+    margin-top: 20px;
+}
+
+.products__search--button-submit {
+    width: 240px;
+    height: auto;
+    gap: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #F5C800;
+    box-shadow: 0px 4px 10px 0px #0000001A;
+}
+
+.products__cards {
+    width: 100%;
+    height: 100%;
+}
+
+.products__cards--inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.products__cards--inner a {
+    text-decoration: none;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #0000001A;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+.card__img {
+    width: 100%;
+    height: auto;
+}
+
+.card__img img {
+    width: 100%;
+    height: auto;
+
+}
+
+.card__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.card__text {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+
+.pagination {
+    border: 1px solid #000;
+}
+
+.pagination__inner {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    text-decoration: none;
+
+}

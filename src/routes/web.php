@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
+use App\Http\Livewire\Register;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +18,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/products', [ProductController::class, 'index'])->name('products');
+
+Route::get('/products/search', [ProductController::class, 'search']);
+
+Route::get('/products/register', [ProductController::class, 'register'])->name('product.register');
+
+Route::get('/products/{id}', [ProductController::class, 'detail'])->name('product.detail');
+
+Route::patch('/products/{id}/update', [ProductController::class, 'update']);
+
+Route::post('products/register', [ProductController::class, 'store']);
+
+Route::post('/products/{id}/delete', [ProductController::class, 'delete']);

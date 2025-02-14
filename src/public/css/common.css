@@ -1,0 +1,16 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1512px;
+    background-color: #fff;
+}
+
+.header__logo {
+    color: #F5C800;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'jsMath-cmti10', sans-serif;
+    line-height: 32.73px;
+}
+
